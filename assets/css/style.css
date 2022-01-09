@@ -192,7 +192,7 @@ a:hover {
 .box-shadow-full {
   padding: 3rem 1.25rem;
   position: relative;
-  background-color: #fff;
+  background-color: rgba(207, 224, 224, 0.61);
   margin-bottom: 3rem;
   z-index: 2;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
@@ -737,7 +737,11 @@ a:hover {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+.about-mf{
+  background-color: darkolivegreen;
+}
 .about-mf .box-shadow-full {
+  background-color: rgb(103, 172, 172);
   padding-top: 4rem;
   padding-bottom: 4rem;
 }
@@ -771,6 +775,10 @@ a:hover {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+.services-mf{
+background-color: darkseagreen;
+
+}
 .service-box {
   background-color: #fff;
   padding: 2.5rem 1.3rem;
@@ -886,6 +894,9 @@ a:hover {
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
+.portfolio-mf{
+  background-color: darkseagreen;
+}
 .portfolio-details {
   padding-top: 40px;
 }
@@ -1148,6 +1159,9 @@ a:hover {
 /*--------------------------------------------------------------
 # Blog Single
 --------------------------------------------------------------*/
+.blog-mf{
+  background-color: darkseagreen;
+}
 .post-box,
 .form-comments,
 .box-comments,
@@ -1285,6 +1299,7 @@ a:hover {
 footer {
   text-align: center;
   color: #fff;
+
   padding: 25px 0;
   background: #0062d3;
 }
@@ -1296,4 +1311,15 @@ footer .credits {
 }
 footer .credits a {
   color: #fff;
+}
+.map{
+padding: 20px 0;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.map-mf{
+  background-color: rgb(143, 155, 143);
 }
